@@ -1,10 +1,12 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Modelsemployees extends Model
+class Employees extends Model
 {
-    //
+    protected $fillable = [
+        'name', 'lastName', 'birth_date', 'gender'
+    ];
 }
