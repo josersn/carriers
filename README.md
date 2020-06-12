@@ -56,6 +56,7 @@ link: http://127.0.0.1:8000/api/employees/id
 
 Relatório de funcianários.
 Link: http://127.0.0.1:8000/api/report/
+a resposta é os dados sãolimpo para ser modificado no front-end
 
 ![](https://uploaddeimagens.com.br/images/002/703/570/full/report.png?1591969485)
 
