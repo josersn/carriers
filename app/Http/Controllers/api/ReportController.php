@@ -22,8 +22,13 @@ class ReportController extends Controller
         $woman = $count - $male;
         $media = $this->ages($employees);
 
+        $number = [$male, $woman];
 
-        return response()->json($media); 
+        $data = array_merge($number, $media);
+
+        
+
+        return response()->json($data); 
     }
 
     private function ages($employees){
