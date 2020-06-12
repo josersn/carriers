@@ -20,11 +20,44 @@ Link para acessar API :
 http://127.0.0.1:8000/api/employees
 
 ```
-Create
+Create - Cria um  funcionário no sistema
+Link: http://127.0.0.1:8000/api/employees
 ```
+![Create](https://uploaddeimagens.com.br/images/002/703/515/full/crud.png?1591966270)
+
+```
+Index - Lista todos os funcionários no sistema
+link: http://127.0.0.1:8000/api/employees/
+```
+![Index](https://uploaddeimagens.com.br/images/002/703/515/full/crud.png?1591966270)
+
+```
+Show - Lista um funcionário só 
+link: http://127.0.0.1:8000/api/employees/id
+```
+![Show](https://uploaddeimagens.com.br/images/002/703/515/full/crud.png?1591966270)
+
+```
+Update - Atualiza um funcionário
+link: http://127.0.0.1:8000/api/employees/id
+```
+![Update](https://uploaddeimagens.com.br/images/002/703/515/full/crud.png?1591966270)
+
+
+```
+Delete - Deleta um funcionário
+link: http://127.0.0.1:8000/api/employees/id
+```
+![Delete](https://uploaddeimagens.com.br/images/002/703/515/full/crud.png?1591966270)
+
+
+
+**Parte 2**
+
+Relatório de funcianários.
+Link: http://127.0.0.1:8000/api/report/
+
 ![](https://uploaddeimagens.com.br/images/002/703/515/full/crud.png?1591966270)
-
-
 
 
 ## Post scriptum
